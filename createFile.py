@@ -1,5 +1,5 @@
 def main():
-    f= open("/home/pi/guru99.txt","w+")
+    f= open("/root/guru99.txt","w+")
     #f=open("guru99.txt","a+")
     for i in range(10):
          f.write("This is line %d\r\n" % (i+1))
